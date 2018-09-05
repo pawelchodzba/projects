@@ -1,0 +1,170 @@
+
+#svgwielobok{
+	//background-color:green;
+	margin:40px 0 0 0;
+		z-index:200;
+}
+
+
+
+#title{
+	position:absolute;
+	top:40px;
+	left:240px;
+	font-size:15px;
+	letter-spacing:2px;
+}
+
+.pow_a{
+ transform: scale(0.0050,0.007);
+	
+	stroke:white;
+	 stroke-width:150px;	
+	
+}
+
+
+
+
+.pow_g{
+ transform: scale(0.013,0.02);
+	
+	stroke:white;
+	 stroke-width:150px;	
+	
+}
+
+.pow1{
+	
+		  opacity:0.7;
+	}
+.pow{
+	 transform: scale(0.001,0.0015);
+	stroke:white;
+	 stroke-width:150px;
+}
+.pow:hover{
+	
+	opacity:0.5;
+	 stroke-width:450px;
+}
+.bez_hover{
+	 transform: scale(0.001,0.0015);
+	stroke:white;
+	 stroke-width:150px;
+}
+
+
+#info_tab{
+	position:absolute;
+	//bottom:0px;
+	top:0px;
+	left:250px;
+	width:550px;
+	height:700px;
+	//background-color:blue;
+
+
+}
+
+#info_gmin{
+	position:absolute;
+	//bottom:0px;
+	top:0px;
+	left:750px;
+	width:550px;
+	height:700px;
+	//                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         background-color:yellow;
+
+
+}
+
+.info_window{
+	float:left
+	
+}
+
+
+.jqx-tooltip
+{
+    position: absolute;
+    width: auto;
+    height: auto;
+	background-color:white;
+}
+.jqx-tooltip-main
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    filter: inherit;
+    border-style: solid;
+    border-width: 3px;
+	background-color:white;
+	color:black;
+	letter-spacing:2px;
+	font-size:17px;
+}
+.jqx-tooltip-text
+{
+    padding: 5px 8px;
+    overflow: hidden;
+    filter: inherit;
+}
+.jqx-tooltip, .jqx-tooltip-text, .jqx-tooltip-main {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding; background-clip: padding-box; -webkit-background-clip: padding-box;   
+}
+.jqx-tooltip-arrow
+{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-style: solid;
+    margin: -6px 0 0 -7px;
+    background: transparent !important;
+    filter: inherit;
+}
+.jqx-tooltip-arrow-t-b
+{
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+}
+.jqx-tooltip-arrow-l-r
+{
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+}
+
+.jqx-widget, .jqx-widget-content, .jqx-widget-header, .jqx-fill-state-normal {
+    line-height: 1.231;
+}
+
+.jqx-calendar .jqx-fill-state-normal
+{
+    background: transparent;
+    border: 1px solid transparent;
+}
+.jqx-popup {
+    box-sizing: content-box;
+}
+.jqx-noshadow {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow   : none !important;
+    box-shadow        : none !important;
+	
+}
+
+
+
+
+/* #bie{ */
+	
+	/* fill:blue; */
+	/* opacity:0.1; */
+	/* stroke:black; */
+/* } */

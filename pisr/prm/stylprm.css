@@ -1,0 +1,205 @@
+body{
+	background-color:#606000;	
+	color:white;
+}
+
+#ramka{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#naglowek{
+	widtt:100%;
+	margin-top:20px;
+	border-bottom-style:double;
+	border-left-style:double;
+	border-right-style:double;
+	background-color:#2F4F4F;
+	padding-top:10px;}    
+
+
+a{color:#D95B0F;}
+a:hover{color:white;}	
+	  /*---------------------------------------struktura--------------------------------*/   
+		
+		
+	td{
+		border:2px solid white;		
+		padding:10px;
+	}
+		
+	table{
+		margin:10px;
+		padding:10px;
+	}	
+		
+		
+		  /*---------------------------------------informacje--------------------------------*/ 	
+         																																																																																																																																  /*------------------------------------------------procedura---------------------------------*/                                                                                                                                                                                                                                                        
+	.dm_tyt{
+		padding-top:30px;
+	}
+
+
+  
+#a999{
+	float:left;
+	text-align:center;
+	font-size:60;
+	padding-top:8px;
+	padding-left:60px;
+}
+#logo{
+	float:left;
+	width:15%;
+	text-align:right;
+	margin-bottom:10px;
+	padding-right:10px;
+
+}
+#glowa{
+	float:left;
+	width:65%;
+	text-align:left;
+	font-size:40px;
+	margin-top:16px;
+	padding-left:15px;
+	
+}
+.tabbePanels{
+	border-right-style:double;
+	
+}
+.tabs{
+	margin:0;
+	padding:0;
+	
+}
+.tabs li{
+	float:left;
+	list-style:none;
+	padding-top:2;
+	width:19.68%;
+	font-size:25;
+	text-align:center;
+	border-left-style:double;
+		
+	}
+	
+.tabs a{
+	display:block;
+	text-decoration:none;
+	padding:3px 5px;
+	color:white;
+}	
+.tabs a.active{
+	background-color:#2F4F4F;
+}
+.panelContainer{
+	clear: left;
+	background-color:#2F4F4F;
+	border-left-style:double;
+	
+}
+	/*------------------------------------------------------------------Procedury-------------------------------------------------*/
+	
+	table.wykaz_p{
+	font-size : 11px;
+}
+
+table.wykaz_p td{
+	border : 1px solid;
+	text-align : center;
+	background-color : #CCFFCC;
+}
+table.wykaz_p td a{
+    display: block;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    font-family : Tahoma; 
+    text-align: center;
+    text-decoration: none;
+    color : black;
+}    
+
+table.wykaz_p td a:hover
+{
+ background-color : lime;
+}
+
+
+
+
+table.pytania{
+	font-size : 16px;
+}
+
+table.pytania tr{
+        height : 40px;
+}
+table.pytania td.odp{
+	border : 3px solid;
+        border-color : green;
+        background-color :  #F2F5A9;
+}
+
+table.pytania td.dop{
+                     font-size : 11px;
+                    }
+table.pytania td a{
+	display: block;
+        margin: 0;
+        padding: 10px 10px 10px 10px;
+        height: 100%;
+	font-family : Tahoma; 
+        text-align: center;
+        text-decoration: none;
+        color : black;
+}    
+
+table.pytania td a:hover
+{
+ font-weight : bold;
+ background-color : yellow;
+}
+
+p.alarm {
+         text-align : center;
+         font-size : 20px;
+         color : red;
+        }
+p.uwaga {         
+         font-size : 18px;
+         color : red;
+        }
+        
+a.hems {
+        background-color: red;
+        color           : white;
+       } 
+a.wstecz {
+        background-color: blue;
+        color           : white;
+        font-style      : normal;
+        text-decoration : none;
+       }        
+a:hover.wstecz {
+        background-color: white;
+        color           : blue;
+        font-style      : normal;
+        text-decoration : none;
+       }          
+a.kontakt {
+        background-color: #A9D0F5;
+        color           : navy;
+        font-style      : normal;
+        text-decoration : none;
+       }        
+a:hover.kontakt {
+        background-color: white;
+        color           : blue;
+        font-style      : normal;
+        text-decoration : none;
+       }

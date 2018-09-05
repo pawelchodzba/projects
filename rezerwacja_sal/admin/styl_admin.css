@@ -1,0 +1,109 @@
+body{
+	
+	background-color:green;
+	color:white;
+	margin:0;
+}
+table{
+	border:1px solid white;
+	border-collapse:collapse;
+}
+th{
+	color:yellow;
+	font-size:14px;
+	text-transform:uppercase;
+	border:1px solid white;
+	padding-left:5px;
+	padding-right:5px;
+}
+tr:nth-child(odd) { background-color:#4F6F6F; }
+.tabbePanels{
+	
+}
+tr:hover{
+	background-color:grey;
+}
+td{
+	border:1px solid white;
+	text-align:center;
+}
+.textarea_width{
+	width:10px;
+}
+.fon_width{
+	width:5px;
+}
+.tabs{
+	margin:0;
+	padding:0;
+	margin:20px;
+}
+.tabs li{
+	float:left;
+	list-style:none;
+	padding-top:2;
+	width:19.68%;
+	font-size:25;
+	text-align:center;
+	
+		
+	}
+	
+.tabs a{
+	display:block;
+	text-decoration:none;
+	padding:3px 5px;
+	color:white;
+}	
+.tabs a.active{
+	background-color:#2F4F4F;
+}
+.panelContainer{
+	clear: left;background-color:#2F4F4F;
+	width:1400px;
+	
+	
+}
+.content_top{
+	position:relative;
+	top:10px;
+}
+
+.filtr{
+	position:absolute;
+	margin-left: 40%;
+	top:10px;
+}
+
+span{
+	position:relative;
+	left:40%;
+	top:-20px;
+}
+
+#for_new{
+	position:relative;
+	margin-left: 20px;
+}
+
+#complete_empty{
+	color:red;
+	font-size:25;
+	//opacity:0.5;
+	animation-name:hidde_show;
+	animation-duration:3s ;
+	animation-iteration-count:3;
+}
+@keyframes hidde_show{
+	
+	from{opacity:0;}
+	to{opacity:1;}
+} 
+.form_position{
+	
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+}

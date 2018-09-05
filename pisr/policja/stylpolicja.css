@@ -1,0 +1,85 @@
+body{
+	background-color:#606000;	
+	color:white;
+}
+
+#ramka{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#naglowek{
+	widtt:100%;
+	margin-top:20px;
+	border-bottom-style:double;
+	border-left-style:double;
+	border-right-style:double;
+	background-color:#191970;
+padding-top:10px;                         }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   	
+	td{
+		border:2px solid white;		
+		padding:10px;
+	}
+		
+	table{
+		margin:10px;
+		padding:10px;
+	}	
+		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+
+#a999{
+	float:left;
+	text-align:center;
+	font-size:60;
+	padding-top:8px;
+	padding-left:50px;
+}
+#logo{
+	float:left;
+	width:20%;
+	text-align:right;
+	margin-bottom:10px;
+
+}
+#glowa{
+	float:left;
+	width:60%;
+	text-align:left;
+	font-size:40px;
+	margin-top:16px;
+	margin-left:10px;
+}
+.tabbePanels{
+	border-right-style:double;
+	
+}
+.tabs{
+	margin:0;
+	padding:0;
+	
+}
+.tabs li{
+	float:left;
+	list-style:none;
+	padding-top:2;
+	width:19.68%;
+	font-size:25;
+	text-align:center;
+	border-left-style:double;
+		
+	}
+	
+.tabs a{
+	display:block;
+	text-decoration:none;
+	padding:3px 5px;
+	color:white;
+}	
+.tabs a.active{
+	background-color:#191970;
+}
+.panelContainer{
+	clear: left;
+	background-color:#191970;
+	border-left-style:double;

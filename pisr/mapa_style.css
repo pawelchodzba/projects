@@ -1,0 +1,444 @@
+body{
+	color:white;
+	font-size:14px;
+}
+
+#mapka{
+	width:100%;
+	height:100%;
+	background-color:grey;
+	z-index:1;
+}
+
+.caly{
+	width:330;
+	line-height:30px;
+	position:fixed;
+	left:-270px;
+	transition:1s;
+	z-index:2;
+
+}
+.caly:hover{
+	left:15;
+}
+.blok1{
+	float:left;
+	width:270px;
+	
+	
+}
+.blok2{
+	float:left;
+	width:60px;
+	margin-top:10px;
+}
+.blok_na_zawartosc{
+	background-color:hsla(0,0%,0%,0);
+	overflow:auto;
+	height:500px;
+		}
+	
+	
+
+.grupa>.ptaszek>input{
+position:absolute;
+left:180px;
+top:10px;
+}
+.grupa>.ptaszek_ak>input{
+position:absolute;
+left:180px;
+top:10px;
+}
+.grupa>.ptaszek{
+	float:left;
+width:100%;
+text-align:left;
+font-size:13px;
+height:45px;
+line-height:1.5;
+position:relative;
+margin-bottom:1px;
+text-transform:uppercase;
+padding-top:10px;
+padding-left:15px;
+border-radius:5px;
+}	
+
+.grupa>.ptaszek_ak{
+	float:left;
+width:100%;
+text-align:center;
+
+height:45px;
+line-height:1.5;
+position:relative;
+margin-bottom:1px;
+text-transform:uppercase;
+padding-top:10px;
+border-radius:5px;
+}	
+
+.grupa>.ptaszek:hover{
+	cursor:pointer;
+}
+	
+.grupa{
+margin-left:55px;
+//box-shadow:inset 14px 10px 13px 15px rgb(50%,50%,50%);
+
+
+}
+
+
+
+.przerwa{
+	clear:both;
+}
+.uchwyt{
+	
+	text-align:center;
+	
+}
+.uchwyt:hover{
+	cursor:pointer;
+ }
+ .grupa>.prm:hover{
+
+background-color:#2F4F4F; 
+}
+
+ 
+ .prm{
+	background-color:#4F6F6F; 
+	 }
+ 
+.top_prm{
+	top:70px;
+}	 
+
+
+
+/*-------------------------------------------psp------------------------------*/
+.psp{
+	background-color:#B55555;
+		
+	font-weight:700;
+	
+ }
+ 
+.top_psp{
+	top:107px;
+	}
+.tytul_psp{
+line-height:15px;
+}
+
+
+
+.grupa>.psp:hover{
+background-color:#a33333;
+
+}
+
+
+/*----------------------------------------------policja---------------------------*/
+
+.pol{
+	
+background-color:#393992;
+	font-weight:700;
+	
+ }
+ 
+.top_pol{
+	top:145px;
+	}
+
+
+
+
+.pol:hover{
+background-color:#191970; 
+
+}
+
+
+/*----------------------------------------------Cpr--------------------------*/
+
+.cpr{
+	background-color:#778899; 
+	font-size:10;
+	font-weight:700;
+	
+ }
+ 
+.top_cpr{
+	top:182px;
+	}
+
+.grupa>.cpr:hover{
+background-color:#667788;
+
+}
+
+
+/*--------------------------------DK------------------------------*/
+
+.ptaszek_dk{
+float:left;
+width:32.3%;
+text-align:center;
+background-color:#C0C0C0; 
+height:45px;
+line-height:1.5;
+position:relative;
+margin-bottom:1px;
+font-weight:700;
+color:#CD5C5C;
+font-size:15;
+padding-top:5px;
+border-radius:5px;	
+border-top:2px solid #CD5C5C;
+border-bottom:2px solid #CD5C5C;
+border-left:2px solid #CD5C5C;
+	
+}
+
+.grupa>.ptaszek_dk>input{
+
+position:absolute;
+left:180px;
+top:10px;
+}
+
+.dk_tytul{
+	background-color:#C0C0C0; 
+	color:red;
+	border-top:2px solid #CD5C5C;
+	border-bottom:2px solid #CD5C5C;
+	border-left:2px solid #CD5C5C;
+}
+.dk{
+background-color:#C0C0C0;
+border-top:2px solid #CD5C5C; 	
+border-bottom:2px solid #CD5C5C; 	
+border-right:2px solid #CD5C5C; 	
+
+}
+ 
+.top_dk{
+	top:230px;
+	}
+
+
+
+.grupa>.ptaszek_dk:hover{
+background-color:#808080;
+
+}
+
+
+
+.grupa>.a4{
+color:red;
+background-color:#C0C0C0;
+border:2px solid #CD5C5C;
+font-weight:700;
+}
+
+.grupa>.a4:hover{
+background-color:#808080;
+
+}
+
+
+
+/*-----------------------------------------------------------------pt_---------------------------------*/
+
+.top_pt{
+	top:270px;
+	}
+.pt_tytul{
+	background-color:#696969;
+	color:white;
+	line-height:15px;
+	font-size:10px;
+	}
+
+.grupa>.pt{
+background-color:#999999;
+
+}
+.grupa:hover>.pt>.bloczek2{
+background-color:#696969;
+}
+
+.grupa>.pt:hover{
+background-color:#696969;
+
+}
+
+.pt{
+	background-color:#696969;
+	
+}
+
+/*----------------------------------multi guziki-----------------------------*/
+.multi_ptaszek{
+	
+	position:absolute;
+	top:0px;
+	right:-14px;
+	border-radius:0 5px 5px 0;
+	
+	margin-top:10px;
+	padding:6px 0 5px 0;
+	z-index:0;
+	
+}	
+
+.multi_ptaszek_pt_dk{
+	
+	position:absolute;
+	top:0px;
+	right:-14px;
+	border-radius:0 5px 5px 0;
+	
+	margin-top:10px;
+	padding:7px 0 4px 0;
+	
+	
+	}	
+	
+
+	
+	/*--------------------------------------okno na mapie---------------------*/	
+			.okno_glowne{
+			width: 200px;	
+			min-height: 60px;
+			font-size:16px;
+			color:white;
+			letter-spacing:1px;
+			background-color:#2F4F4F;
+			padding:0px;
+			margin:0px;
+			text-align:center;
+			}
+			.okno_tyt{
+			margin:0px;
+			padding:5px;
+			font-size:18px;
+			font-weight:900;
+			}
+			.adres{
+			margin:0px;
+			padding-bottom:5px;	
+			margin-top:0px;
+			border-bottom:2px solid white;
+				}
+				
+			.telefony{
+			padding-top:10px;
+			padding-bottom:10px;
+			color:white;
+			text-decoration: none;
+				}
+				.telefony>a{
+					color:white;
+				}
+				.telefony>a:hover{
+					font-size:16px;
+					font-weight:900;
+				}
+				
+				
+			.mail_okno{
+				padding-top:10px;
+				padding-bottom:10px;
+				color:white;
+				border-top:2px solid white;
+			}
+				.mail_okno>a{
+					color:white;
+				}
+				.mail_okno>a:hover{
+					font-size:16;
+					font-weight:900;
+				}
+
+	.okno_glowne_pol{
+			width: 200px;	
+			min-height: 60px;
+			font-size:16px;
+			color:white;
+			letter-spacing:1px;
+			background-color:#191970;
+			padding:0px;
+			margin:0px;
+			text-align:center;
+	}
+				
+		.okno_glowne_psp{
+			width: 200px;	
+			min-height: 60px;
+			font-size:16px;
+			color:white;
+			letter-spacing:1px;
+			background-color:#B22222;
+			text-align:center;
+			margin:0px;		
+				
+		}
+
+.okno_glowne_cpr{
+			
+			min-width: 100px;	
+			min-height: 60px;
+			font-size:16px;
+			color:white;
+			letter-spacing:1px;
+			text-align:center;
+			background-color:#696969;
+			padding:0px;
+			margin:0px;
+			
+		}
+		#wczk{
+			border-top:2px solid white;
+			margin-top:10px;
+			padding:10px;
+			
+		}
+		
+			#wczk>a{
+					color:white;
+				}
+				#wczk>a:hover{
+					font-size:16px;
+					font-weight:900;
+					}
+
+					
+					
+					
+					
+					
+	.localizer{
+		position:fixed;
+		top:0;
+		left:150px;
+		//width:450px;
+		height:35px;
+		background-color:green;
+		z-index:2;
+		
+	}
+	
+	.okno{
+		height:25px;
+		float:left;
+		padding:10px;
+		
+	}

@@ -1,0 +1,116 @@
+body.menu {
+	background-color: #fffFcc;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family : tahoma;
+	align : center;
+}
+body.tresc {
+	background-color: #ffffcc;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	font-family : tahoma;
+	align : center;
+}
+table.wykaz_p{
+	font-size : 11px;
+}
+
+table.wykaz_p td{
+	border : 1px solid;
+	text-align : center;
+	background-color : #CCFFCC;
+}
+table.wykaz_p td a{
+    display: block;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    font-family : Tahoma; 
+    text-align: center;
+    text-decoration: none;
+    color : black;
+}    
+
+table.wykaz_p td a:hover
+{
+ background-color : lime;
+}
+
+
+
+
+table.pytania{
+	font-size : 16px;
+}
+
+table.pytania tr{
+        height : 40px;
+}
+table.pytania td.odp{
+	border : 3px solid;
+        border-color : green;
+        background-color :  #F2F5A9;
+}
+
+table.pytania td.dop{
+                     font-size : 11px;
+                    }
+table.pytania td a{
+	display: block;
+        margin: 0;
+        padding: 10px 10px 10px 10px;
+        height: 100%;
+	font-family : Tahoma; 
+        text-align: center;
+        text-decoration: none;
+        color : black;
+}    
+
+table.pytania td a:hover
+{
+ font-weight : bold;
+ background-color : yellow;
+}
+
+p.alarm {
+         text-align : center;
+         font-size : 20px;
+         color : red;
+        }
+p.uwaga {         
+         font-size : 18px;
+         color : red;
+        }
+        
+a.hems {
+        background-color: red;
+        color           : white;
+       } 
+a.wstecz {
+        background-color: blue;
+        color           : white;
+        font-style      : normal;
+        text-decoration : none;
+       }        
+a:hover.wstecz {
+        background-color: white;
+        color           : blue;
+        font-style      : normal;
+        text-decoration : none;
+       }          
+a.kontakt {
+        background-color: #A9D0F5;
+        color           : navy;
+        font-style      : normal;
+        text-decoration : none;
+       }        
+a:hover.kontakt {
+        background-color: white;
+        color           : blue;
+        font-style      : normal;
+        text-decoration : none;
+       }

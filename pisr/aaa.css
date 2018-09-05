@@ -1,0 +1,1259 @@
+body
+	{
+	font-family: 'Oswald', sans-serif;
+	background-color:#606000;	
+	text-decoration: none;
+		
+	}
+	#ramka
+		{
+		
+		width:1000px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:10px;
+		color:white;
+		}
+
+			
+		.glowa
+		{
+			
+		float:left;	
+		width:50%;
+		font-size:18px;
+		font-weight:700;
+		letter-spacing:3px;
+		text-align:center;
+		height:26px;
+		margin-top:5px;
+		margin-bottom:10px;
+		
+		}
+					
+			#godzina
+			{
+			float:left;
+			margin-left:100px;
+			
+			font-size:17px;
+			font-weight:700;
+			letter-spacing:5px;
+			}
+		
+		
+			
+			
+			
+			#data{
+				float:left;
+				font-size:15px;
+				letter-spacing:3px;
+				font-weight:700;				
+				margin-left:18px;
+				
+				
+			}	
+			
+	
+
+		.menu{
+				
+			float: left;
+			width:50%;
+			text-align:center;
+			font-size:40px;
+			font-weight:700;
+			letter-spacing:8px;
+			
+
+		
+		}
+		
+		
+		#multi_mapa{
+	
+	color:black;
+	font-size:10px;
+	background-color:white;
+		
+}
+
+#multi_mapa:hover{
+	background-color:#C0C0C0;
+		
+}
+	
+		.mapka
+		{
+		//background-color:gray;
+		width:100%;
+		height:522px;
+		
+			
+		}
+		.cpr
+			{
+			
+			float:left;	
+			background-color:#778899;/*102,153,153*/
+			width:230px;
+			height:255px;
+			color:white;
+			margin-right:10px;
+			padding-top:10px;
+	
+			}
+			.cpr:hover
+			{
+			background-color:#667788;
+			}
+			.prm
+			{
+			float:left;	
+			background-color:#2F4F4F;/*51,102,102*/
+			width:230px;
+			height:255px;
+			color:white;
+			margin-left:10px;
+			padding-top:10px;
+			}
+			.prm:hover
+			{
+			background-color:#2e3e3e;
+			}
+			
+			.psp
+			{
+			float:left;	
+			background-color:#B22222;/*153,51,51*/
+			width:230px;
+			height:255px;
+			color:white;
+			margin-top:10px;
+			margin-right:10px;
+			padding-top:10px;
+			}
+			.psp:hover
+			{
+			background-color:#a11111;
+			}
+			.policja
+			{
+			float:left;	
+			background-color:#191970;/*0,0,102*/
+			width:230px;
+			height:255px;
+			color:white;
+			margin-top:10px;
+			margin-left:10px;
+			padding-top:10px;
+			}
+			.policja:hover
+			{
+			background-color:#080860;
+			}
+		
+		
+			
+			.inne_sluzby
+			{
+				float:left;
+				background-color:#9c5624;
+				color:white;
+				text-align:center;
+				width:147px;
+				height:18px;
+				margin-top:27px;
+				margin-right:2px;
+				padding:6px;
+				font-size:10px;
+				letter-spacing:2px;
+			
+			}
+			.inne_sluzby:hover
+			{
+			background-color:#8b4513;
+			}
+			
+			  /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+      /* usunięcie domyślnych właściwości CSS z elementów - ol - oraz - ul */
+      #menu, #menu ul, #menu ol {
+        list-style-type:none;
+        padding:0;
+		margin:0;
+		font-size: 14px;
+      }
+
+      /* wygląd głównego elementu - ol */      
+      
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      #menu > li {
+        float:left;
+        width:124px;
+       margin-left:1px;
+        background-color:#2F4F4F;
+        height:30px;
+		padding-top:1px;
+		letter-spacing:1px;
+		
+		
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      #menu > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      #menu > li:hover {
+        background-color:#2e3e3e;
+      }
+
+         /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+     
+#menu>li:hover >ul{
+	display:block;
+}
+
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-1----------------------- */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      #menu > li > ul {
+        display:none;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      #menu > li > ul > li {
+        position:relative;
+        background-color:#2F4F4F;
+		border-top:1px solid #606000;	
+		letter-spacing:0;
+		z-index:12;
+      }
+
+       /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      #menu > li > ul > li:hover {
+        background-color:#2e3e3e;
+      }
+
+   
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-2----------------------- */
+
+      /* wygląd głównego elementu - ol - w drugiej części rozwijanej */
+      #menu > li > ul > li > ol {
+        display:none;
+        width:90%;
+        position:absolute;
+        left:100%;
+        margin-top:-1em;
+      }
+
+      /* wygląd głównego elementu - ol - w drugiej części rozwijanej, po najechaniu kursorem myszki na jego rodzica - li */
+      #menu > li > ul > li:hover > ol {
+        display:block;
+      }
+
+      /* wygląd elementów - li - w drugiej części rozwijanej */
+      #menu > li > ul > li > ol > li {
+        background-color:#2F4F4F;
+		border-top:1px solid #606000;	
+      }
+
+     
+
+      /* ------------------------WSPÓLNE----------------------- */
+
+          
+      #menu .dol {
+        background-image:url('prm/icon/strzalka_dol.png');
+        background-repeat:no-repeat;
+        background-position:98% center;
+      }
+      #menu .prawo {
+        background-image:url('prm/icon/strzalka_bok.png');
+        background-repeat:no-repeat;
+        background-position:98% center;
+	  }
+	  
+	  /*----------------------Policja menu mapy---------------------------------------------------------------------------------*/
+	
+	  
+	  	  /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+      /* usunięcie domyślnych właściwości CSS z elementów - ol - oraz - ul */
+   #menu_cpr,#menu_pol, #menu_pol ul, #menu_pol ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygląd głównego elementu - ol */      
+      
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      #menu_pol > li {
+        float:left;
+        width:124px;
+       margin-left:1px;
+        background-color:#191970;
+        height:30px;
+		padding-top:1px;
+		letter-spacing:1px;
+		font-size: 14px;
+		
+		
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      #menu_pol > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      #menu_pol > li:hover {
+        background-color:#080860;
+      }
+
+         /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      #menu_pol > li:hover > ul {
+        display:block;
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-1----------------------- */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      #menu_pol > li > ul {
+        display:none;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      #menu_pol > li > ul > li {
+        position:relative;
+        background-color:#191970;
+		border-top:1px solid #606000;	
+		letter-spacing:0;
+		z-index:12;
+      }
+
+       /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      #menu_pol > li > ul > li:hover {
+        background-color:#080860;
+      }
+
+   
+     
+      /* ------------------------WSPÓLNE----------------------- */
+
+          
+      #menu_pol .dol {
+        background-image:url('prm/icon/strzalka_dol.png');
+        background-repeat:no-repeat;
+        background-position:98% center;
+      }
+	  
+	  
+	  /*---------------------PSP menu mapy---------------------------------------------------------------------------------*/
+	
+	  
+	  	  /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+      /* usunięcie domyślnych właściwości CSS z elementów - ol - oraz - ul */
+   #menu_psp, #menu_psp ul, #menu_psp ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygląd głównego elementu - ol */      
+      
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      #menu_psp > li {
+        float:left;
+        width:124px;
+       margin-left:1px;
+        background-color:#B22222;
+        height:30px;
+		padding-top:1px;
+		letter-spacing:1px;
+		font-size: 14px;
+		
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      #menu_psp > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      #menu_psp > li:hover {
+        background-color:#a11111;
+      }
+
+         /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      #menu_psp > li:hover > ul {
+        display:block;
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-1----------------------- */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      #menu_psp> li > ul {
+        display:none;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      #menu_psp > li > ul > li {
+        position:relative;
+        background-color:#B22222;
+		border-top:1px solid #606000;	
+		letter-spacing:0;
+		z-index:12;
+      }
+
+       /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      #menu_psp > li > ul > li:hover {
+        background-color:#a11111;
+      }
+
+   
+     
+      /* ------------------------WSPÓLNE----------------------- */
+
+          
+      #menu_psp .dol {
+        background-image:url('prm/icon/strzalka_dol.png');
+        background-repeat:no-repeat;
+        background-position:98% center;
+      }
+	  
+	  
+	  
+	  #menu_cpr{
+		float:left;   
+		width:50%;
+		margin-left:0px;
+        background-color:#778899;
+        height:30px;
+		padding-top:1px;
+		letter-spacing:3px;
+		text-align:center;
+		
+	  }
+	 
+	  /*--------------------------------------------------------------------Drogi-----------------------------*/
+		  /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+      /* usunięcie domyślnych właściwości CSS z elementów - ol - oraz - ul */
+      .menu_drogi, .menu_drogi ul, .menu_drogi ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygląd głównego elementu - ol */      
+      
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      .menu_drogi > li {
+        float:left;
+        width:162px;
+		margin-left:1px;
+        background-color:#C0C0C0;
+        height:22px;
+		padding-top:1px;
+		letter-spacing:1px;
+		color:#CD5C5C;
+		border:2px solid #CD5C5C;
+		font-size: 14px;
+		
+		
+      }
+	  
+	  
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      .menu_drogi > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      .menu_drogi > li:hover {
+        background-color:#808080;
+      }
+
+         /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+     
+.menu_drogi>li:hover >ul{
+	display:block;
+}
+
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-1----------------------- */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+     .menu_drogi > li > ul {
+        display:none;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      .menu_drogi > li > ul > li {
+		 
+		  float:left;
+		  width:50%;
+        position:relative;
+        background-color:#C0C0C0;
+        height:24px;
+		border-top:1px solid #606000;	
+		letter-spacing:0;
+		z-index:12;
+      }
+	  
+	   #a4_infra{
+		 
+		 width:100%;
+       
+      }
+	  
+	  
+	  
+	  
+
+       /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      .menu_drogi > li > ul > li:hover {
+        background-color:#808080;
+		
+      }
+
+
+    /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-2----------------------- */
+
+      /* wygląd głównego elementu - ol - w drugiej części rozwijanej */
+  .menu_drogi > li > ul > li > ol {
+        display:none;
+        width:90%;
+        position:absolute;
+        left:100%;
+        margin-top:-1em;
+      }
+
+      /* wygląd głównego elementu - ol - w drugiej części rozwijanej, po najechaniu kursorem myszki na jego rodzica - li */
+     .menu_drogi > li > ul > li:hover > ol {
+        display:block;
+      }
+
+      /* wygląd elementów - li - w drugiej części rozwijanej */
+   .menu_drogi> li > ul > li > ol > li {
+        background-color:#C0C0C0;
+        height:24px;
+		border-top:1px solid #606000;	
+      }
+
+	
+	.menu_drogi>.etykiety{
+		background-color:#696969;
+		color:white;
+		border:2px solid black;
+		width:244px;
+		letter-spacing:3px;
+		
+	}
+	
+	
+	
+	
+	
+	
+      
+	  /*----menu zakladek mapy------*/
+	  
+	  #ramka1, #ramka2{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	  }
+	  
+	
+	  
+.tabbePanels_2{
+margin-left:1px;
+	
+}
+.tabs,.tabs_drogi {
+	margin-top:0;
+	padding:0;
+	
+}
+.multi_guzik{
+	float:left;
+	margin-top:5px;
+	margin-left:10px;
+	
+}
+.multi_guzik:first-child{
+margin-left:10px;	
+}
+
+.tabs li {
+	float:left;
+	list-style:none;
+	padding-top:10;
+	width:100px;
+	font-size:8;
+	letter-spacing:3px;
+	text-align:left;
+
+	}
+	
+	.tabs_drogi li {
+	float:left;
+	list-style:none;
+	padding-top:0;
+	width:160;
+	font-size:8;
+	letter-spacing:3;
+	text-align:left;
+	margin-top:10px;
+	}
+	
+	
+.tabs a,.tabs_drogi a{
+	display:block;
+	text-decoration:none;
+	padding:3px 5px;
+	color:black;
+}	
+.tabs a.active, .tabs_drogi a.active{
+	font-size:8px;
+	color:white
+}
+	
+			.info
+			{
+				float:left;
+				width:105px;
+				color:white;
+				padding:3px;
+				margin-top:30px;
+				
+			}
+			.info:hover
+			{
+			color:#8b4513;
+			}
+			
+			.wypelnienie
+			{
+			color:#ffffff;
+			text-decoration:none;
+			}
+			.content_sluzba{
+				
+				position:relative;
+				top:5;
+				
+			}
+		
+			.odliczanie
+			{
+				
+				float:left;
+				font-size:16px;
+				letter-spacing: 5px;
+				margin-left:10px;
+			
+			}
+			
+			.zmiana_za
+			{
+				
+				float:left;
+			font-size:16px;
+			font-weight:100px;	
+			letter-spacing:1px;
+			text-align:left;
+			margin-left: 20px;
+			margin-top: 0px;
+			//background-color:green;
+		
+			}
+			
+			/*--------------------------------------okno na mapie---------------------*/	
+			.okno_glowne{
+			width: 200px;	
+			min-height: 60px;
+			font-size:16px;
+			color:white;
+			letter-spacing:1px;
+			background-color:#2F4F4F;
+			padding:0px;
+			margin:0px;
+			}
+			.okno_tyt{
+			
+			padding:5px;
+			font-size:18px;
+			font-weight:900;
+			}
+			.adres{
+			margin-bottom:10px;
+			padding-bottom:5px;	
+		
+			border-bottom:2px solid white;
+				}
+				
+			.telefony{
+			padding-top:10px;
+			padding-bottom:10px;
+			color:white;
+			text-decoration: none;
+				}
+				.telefony>a{
+					color:white;
+				}
+				.telefony>a:hover{
+					font-size:16px;
+					font-weight:900;
+				}
+				
+			.mail_okno{
+				padding-top:10px;
+				padding-bottom:10px;
+				color:white;
+				border-top:2px solid white;
+				border-bottom:2px solid white;
+			}
+				.mail_okno>a{
+					color:white;
+				}
+				.mail_okno>a:hover{
+					font-size:16;
+					font-weight:900;
+				}
+
+				#tel2_lpr{
+					color:white;
+				}
+					
+	.okno_glowne_pol{
+			width: 200px;	
+			min-height: 60px;
+			font-size:16px;
+			color:white;
+			letter-spacing:1px;
+			background-color:#191970;
+			padding:0px;
+			margin:0px;
+	}
+				
+		.okno_glowne_psp{
+			width: 200px;	
+			min-height: 60px;
+			font-size:16px;
+			color:white;
+			letter-spacing:1px;
+			background-color:#B22222;
+			padding:0px;
+			margin:0px;		
+				
+		}
+		
+		.okno_glowne_cpr{
+			
+			min-width: 100px;	
+			min-height: 60px;
+			font-size:16px;
+			color:white;
+			letter-spacing:1px;
+			background-color:#696969;
+			padding:0px;
+			margin:0px;
+			
+		}
+		#wczk{
+			border-top:2px solid white;
+			margin-top:10px;
+			padding:10px;
+			
+		}
+		
+			#wczk>a{
+					color:white;
+				}
+				#wczk>a:hover{
+					font-size:16px;
+					font-weight:900;
+					}
+					
+		#mapa_duza{
+	
+	float:right;
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	width:500px;
+	font-size:8;
+	letter-spacing:6;
+	text-align:center;
+	color:white;	
+		}	
+		
+	.new_mapa{
+		
+	letter-spacing:8px;	
+	font-size:8;
+	font-weight:700;
+	float:right;
+	width:499px;
+	text-align:center;
+	border:1px solid black;
+	text-decoration: none;	
+	}
+	/*-----------------------------------------------------------------pasek--------------------*/
+
+#blok{
+		display:none;
+	}
+	
+
+
+	
+		.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom:0;
+	z-index: 10;
+}
+		
+		.nav{
+			position:fixed;
+			bottom:0;
+			width:100%;
+			height:1.5em;
+			line-height:1.5em;
+			margin:0 auto;
+			border:3px solid white;
+			font-size:1.5em;
+			background-color:red;
+			overflow:hidden;
+			
+			text-transform:uppercase;
+				z-index: 10;
+		}
+			.nav>p{
+				position:absolute;
+				margin:0;
+				white-space:nowrap;
+				color:white;
+				letter-spacing:4px;
+				animation:przesun 15s linear infinite;
+				
+			}
+		@keyframes przesun{
+			0%{transform:translateX(0);padding-left:100%;}
+			100%{transform:translateX(-100%);padding-left:100%;}
+		}
+	
+
+	
+	
+	/*--------------------------------------------------------------formularz----------------------------*/
+	
+	#caly{
+		height:160px;
+		width:500px;
+		top:50px;
+		background-color:#575757;
+		
+		position:fixed;
+		left:-460px;
+		transition:1s;
+		z-index:100;
+	}
+	#caly:hover{
+	left:0;
+	}	
+	
+	#form_tresc{
+		float:left;
+		text-align:center;
+		width:460px;	
+		
+	}
+	
+	#form_tresc>form>textarea{
+		width:400px;
+		height:80px;
+		margin-top:10px;
+		margin-bottom:0px;
+		font-size:20;
+		font-weight:700;
+	}
+	#form_tresc>form>input[type=button]{
+		width:400px;
+		//height:20px;
+			//margin-top:-5px;
+		font-size:16;
+		letter-spacing:4px;
+		margin-right:2px;
+	}
+	#usun{
+		margin-top:-10px;
+	}
+	#form_tyt{
+		float:left;
+		height:160px;
+		width:40px;	
+		background-color:#696969;
+	}
+		#form_tyt>#tekst{
+			
+			
+		position:relative;
+		top:45px;
+		left:-80px;
+		height:80px;
+		color:white;
+		width:140;
+		text-align:center;
+		padding:0px;
+		text-weight:700;
+		letter-spacing:5px;
+		text-transform:uppercase;
+		-webkit-transform: rotate(90deg);	
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+				
+	}
+
+	/*------------------------------------------------------------------help------------------------------------------*/
+	
+	#help{
+		position:fixed;
+		top:250px;
+		left:0;
+		background-color:red;
+		height:80px;
+		width:40px;
+		font-weight:900;
+		font-size:16px;
+		letter-spacing:5px;
+		
+	}
+	
+	#help_inner>form>input{
+		position:relative;
+		left:-20px;
+		top:20px;
+		text-align:center;
+		background-color:hsla(0,30%, 30%,0);
+		padding:0px;
+		width:80px;
+		height:40px;
+		color:white;
+		-webkit-transform: rotate(90deg);	
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+	
+	.invisable{
+		display:none;
+	}
+	
+	.visable{
+		display:block;
+	}
+	
+	.help_alarm{
+		
+		position:fixed;
+		top:250px;
+		left:45px;
+	
+		height:80px;
+		width:80px;
+		font-weight:900;
+		font-size:15px;
+		letter-spacing:2px;
+	}
+	
+	.help_name{
+		
+		position:fixed;
+		top:335px;
+		left:0px;
+		width:120px;
+		text-align:center;
+		color:white;
+		font-weight:900;
+		font-size:18px;
+		letter-spacing:2px;
+		padding:0;
+		border:2px solid red;
+	}
+	
+	.help_name>p{
+		padding:0;
+		margin:0;
+		
+		}
+	
+	.alarm_o{
+		position:relative;
+		top:-55px;
+		left:35px;
+		
+        animation:moja_animacja 1s infinite;
+        -webkit-animation:moja_animacja 1s infinite; /* dla Google Chrome, Safari, Opera 15+ */
+	}
+	
+      /* ---------------------REGUŁY-ANIMACJI--------------------- */
+      @keyframes moja_animacja
+      {
+        0% {opacity: 1; }
+        50% { opacity: 0; }
+       
+      }
+
+      @-webkit-keyframes moja_animacja /* dla Google Chrome, Safari, Opera 15+ */
+      {
+          0% {opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+	.end_help>form>input{
+		//display:none;
+		margin-top:60px;
+		width:120px;
+		color:white;
+		position:relative;
+		left:8px;
+		background-color:#606000;
+		font-size:12px;
+		letter-spacing:6px;
+		border:none;
+		text-align:center;
+	}
+	
+	
+	/*---------------------------------------awaria---------------------------------------*/
+	#awaria{
+		position:fixed;
+		left:-320px;
+		top:395px;
+		background-color:#663333;
+		padding-top:10px ;
+		padding-bottom:10px ;
+		padding-left:30px;
+		padding-right:10px;
+		width:320px;
+		transition:1s;
+		z-index:300;
+		
+	}
+	#awaria:hover{
+		left:0;
+	}
+	#tresc_a{
+		float:left;
+		color:white;
+	}
+	#awaria_tekst{
+		width:280px;
+		margin-bottom:5px;
+		font-size:20px;
+		
+	}
+	#awaria_wys{
+		position:absolute;
+		bottom:10px;
+		left:30px;
+		width:280px;
+		font-size:15px;
+		letter-spacing:4px;
+	}
+	#tyt_a{
+		float:left;
+		position:absolute;
+		left:305px;
+		top:67px;
+		text-align:center;
+		background-color:hsla(0,30%, 30%,0);
+		padding:0px;
+		width:80px;
+		height:10px;
+		color:white;
+		letter-spacing:9px;
+		-webkit-transform: rotate(90deg);	
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+	
+	}
+	.cpr_awaria{
+		position:relative;
+		top:-30px;
+		background-color:white;
+		
+		font-size:13px;
+		letter-spacing:1px;
+	
+		text-align:left;
+		padding:0 5px;
+	
+	}
+	
+	#cpr_awaria{
+		border-left:2px solid #778899;
+		border-right:2px solid #778899;
+		border-bottom:2px solid #778899;
+		color:#778899;
+	}
+	
+	#prm_awaria{
+		border-left:2px solid #2F4F4F;
+		border-right:2px solid #2F4F4F;
+		border-bottom:2px solid #2F4F4F;
+		color:#2F4F4F;
+	}
+	#psp_awaria{
+		border-left:2px solid #B22222;
+		border-right:2px solid #B22222;
+		border-bottom:2px solid #B22222;
+		color:#B22222;
+	}
+	#pol_awaria{
+		
+		border-left:2px solid #191970;
+		border-right:2px solid #191970;
+		border-bottom:2px solid #191970;
+		color:#191970;
+	}
+	
+	#awaria_inne{
+		position:absolute;
+		left:5px;
+		top:610px;
+	
+		width:130px;
+	
+		
+	
+	}
+	#ine_awaria{
+	font-size:12px;
+		letter-spacing:1px;
+	
+		text-align:left;
+		padding:0 5px;
+		background-color:white;
+		border-left:2px solid #191970;
+		border-right:2px solid #191970;
+		border-bottom:2px solid #191970;
+		color:#191970;	
+	}
+	.plus{
+		width:20px;
+		height:20px;
+		color:white;
+		
+	}
+	#usun_cpr{
+		position:relative;
+		bottom:-10px;
+		background-color:hsla(0,30%, 30%,0);
+		border:none;
+		
+		
+	
+	}
+	#usun_prm{
+		position:relative;
+		bottom:-10px;
+		background-color:hsla(0,30%, 30%,0);
+		border:none;
+		
+	}
+	#usun_psp{
+		position:relative;
+		bottom:-10px;
+		background-color:hsla(0,30%, 30%,0);
+		border:none;
+	
+	}
+	
+	
+	#usun_pol{
+		position:relative;
+		bottom:-10px;
+		background-color:hsla(0,30%, 30%,0);
+		border:none;
+		
+	}
+		#usun_ine{
+			float:right;
+		position:relative;
+		bottom:20px;
+		background-color:hsla(0,30%, 30%,0);
+		border:none;
+		//z-index:300;
+	
+	}
+	
+	
+	#form_cpr{
+	display:none;
+	}
+	
+	#form_prm{
+		display:none;
+	}
+	#form_psp{
+		display:none;
+	}
+	
+	#form_pol{
+		display:none;
+	}
+	
+	#form_ine{
+		display:none;
+	}
+	
+	
+	
+	/*mapy------------------------------------------------------*/
+	
+	
+	#ramka_map{
+		position:absolute;
+		top:50px;
+		right:10px;
+		width:100px;
+		//background-color:red;
+	}
+	
+	#ramka_map>input{
+		width:90px;
+		margin-bottom:10px;
+	}
+	
+	/* #title{ */
+	/* position:absolute; */
+	/* top:30px; */
+	/* left:200px; */
+	/* font-size:20px; */
+/* } */
+	
+	

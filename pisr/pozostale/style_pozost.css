@@ -1,0 +1,89 @@
+body{
+	background-color:#606000;
+	color:white;
+}
+#ramka{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#naglowek{
+	width:100%;
+	text-transform: uppercase;
+	text-align:center;
+	padding:10px;
+	font-size:20px;
+	border:4px ridge white;
+	margin-top:20px;
+}
+table{
+
+	margin-top:20px;
+	table-layout:fixed;
+	
+	border-spacing:0 10px;
+	font-size:15px;
+	
+}
+td{
+	border:3px ridge white;
+	padding:5px;
+}
+caption{
+	
+	font-size:20;
+	margin-bottom:10px;
+}
+a{color:#D95B0F;}
+a:hover{color:white;}
+
+.tabbePanels{
+	border-right-style:double;
+	
+}
+.tabs{
+	margin:0;
+	padding:0;
+	
+}
+.tabs li{
+	float:left;
+	list-style:none;
+	padding-top:2;
+	margin-left:200px;
+	font-size:25;
+	text-align:center;
+		
+	}
+	
+.tabs a{
+	display:block;
+	text-decoration:none;
+	padding:3px 5px;
+	color:hsla(20, 50%, 70%, 0.2);;
+}	
+.tabs a.active{
+	color:white;
+}
+.panelContainer{
+	clear: left;
+	background-color:#778899;
+	border-left-style:double;
+}
+#tresc{
+	border:8px ridge white;
+	margin-top:50px;
+	margin-left:50px;
+	padding:10px;
+}
+
+
+strong{
+	color:BurlyWood;
+}
+
+
+
+
+
+

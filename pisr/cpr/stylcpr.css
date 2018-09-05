@@ -1,0 +1,198 @@
+body{
+	background-color:#606000;	
+	color:white;
+}
+
+#ramka{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#naglowek{
+	width:100%;
+	margin-top:10px;
+	border-bottom-style:double;
+	border-left-style:double;
+	border-right-style:double;
+	background-color:#778899;
+	padding-top:0px;     
+	}
+
+#logo{
+	float:left;
+	margin:10px 10px 10px 30px;
+}
+
+#glowa{
+	float:left;
+	text-align:center;
+	font-size:40px;
+	margin-top:45px;
+	margin-left:55px;
+}
+
+a{color:#D95B0F;}
+a:hover{color:white;}
+.tabbePanels{
+	border-right-style:double;
+	}
+.tabs{
+	margin:0;
+	padding:0;
+	
+}
+.tabs li{
+	float:left;
+	list-style:none;
+	padding-top:2;
+	width:19.68%;
+	font-size:25;
+	text-align:center;
+	border-left-style:double;
+		
+	}
+	
+.tabs a{
+	display:block;
+	text-decoration:none;
+	padding:3px 5px;
+	color:white;
+}	
+.tabs a.active{
+	background-color:#778899;
+}
+.panelContainer{
+	clear: left;
+	background-color:#778899;
+	border-left-style:double;
+}
+
+
+#tytul{
+	
+	font-size:20px;
+	margin:0 5px 30px 5px;
+	padding:20px;
+	text-align:center;
+	height:1000px;
+	background-color:#606000;	
+}
+table{
+	position:absolute;
+	top:300px;
+	//border: 2px solid white;
+	margin-left:250px;
+	font-size:20px;
+		background-color:#606000;	
+}
+
+td{
+	border:2px solid white;
+	padding:10px;
+}
+
+/*-------------------------------------procedura-------------------------------------------*/
+#spis{
+padding:2px 30px;
+font-size:18px;
+background-color:#606000;
+margin:10 5px;	
+	
+}
+
+ol>li>a{
+	margin-top:5px;
+	color:white;	
+	text-decoration:none;
+}
+
+ol>li>ul>li>a{
+	margin-top:5px;
+	color:white;	
+	text-decoration:none;
+}
+#proc{
+padding-top:1px;	
+padding-bottom:50px;
+background-color:#606000;	
+margin:0 5px;		
+}
+
+.s{
+font-size:18px;	
+margin:0 30px;	
+margin-bottom:30px;	
+text-align:center;	
+text-top:5px;
+
+}
+
+.s0{
+margin:10px 30px;	
+text-align:justify;	
+}
+
+h3{
+	text-align:center;
+}
+/*-----------------------------------------------------------------info-------------------------------*/
+#panel3>#i1>table{
+	
+	font-size:14px;
+
+	
+}
+
+
+#info{
+	
+	
+	background-color:#606000;	
+	padding:20px 0;
+}
+
+#info>ul>li{
+	display:inline;
+	padding:20px;
+	font-size:28px;
+	text-decoration:none;
+	color:white;
+}
+
+#info>ul>li>a{
+	text-decoration:none;
+	color:white;
+}
+
+
+.panel>#i1{
+	background-color:red;
+}
+
+
+#i2{
+	background-color:green;
+	position:relative;
+	top:2500px;
+	margin:0 110px;
+}
+
+#i3{
+	background-color:green;
+	position:relative;
+	top:2700px;
+	margin-right:200px;
+}
+
+#i4{
+	background-color:green;
+	position:relative;
+	top:3100px;
+	margin-left:80px;
+}
+
+
+
+
+

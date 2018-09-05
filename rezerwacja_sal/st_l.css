@@ -1,0 +1,402 @@
+body{
+	background:-webkit-linear-gradient(left,#9ACD32 -100%,#314800 50%,#9ACD32 200% );
+	background:-moz-linear-gradient(left,#9ACD32 -100%,#314800 50%,#9ACD32 200% );
+	background:-o-linear-gradient(left,#9ACD32 -100%,#314800 50%,#9ACD32 200% );
+	background:-ms-linear-gradient(left,#9ACD32 -100%,#314800 50%,#9ACD32 200% );
+}
+#content_all{
+	display:flex;
+	justify-content:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	height:800px;
+	//background-color:red;
+	font-size:11px;
+	color:white;
+}
+#content_calendar{
+	
+	
+	//background-color:green;
+	float:left;
+	margin:5px;
+	width:15%;
+	height:100%;
+	
+}
+
+#content_svg{
+//	background-color:green;
+	float:left;
+	margin:5px;
+	width:50%;
+	height:100%;
+	position:relative;
+	
+}
+/*---------------------------------------------kalendarz-------------------------------------*/
+
+#data_box{
+	display:flex;
+	justify-content:left;
+	//background-color:brown;
+	margin-bottom:2px;
+	margin-top:12px;
+}
+
+#data_box>button{
+	background-color:transparent;
+	border:none;
+	cursor:pointer;
+	color:white;
+}
+#data_box>button:hover{
+	color:black;
+}
+.cell{
+
+	background-color:#8B4513;
+	width:16px;
+	padding:2px;
+	text-align:center;
+	box-sizing:border-box;
+	border: 0px solid ;
+	border-radius: 20%;
+}
+
+.cell_2 ,.cell_3,.cell_4,.cell_5,.cell_6,.cell_1{
+	
+	background-color:#807000;
+	width:16px;
+	box-sizing:border-box;
+	border-radius: 20%;
+	box-shadow:0 0  2px 0.8px #003100 inset;
+	border-bottom:1px solid black;
+}
+
+
+
+.busy{
+background-color:yellow;	
+	
+}
+
+
+.cell:hover, .cell_1:hover,.cell_2:hover ,.cell_3:hover,.cell_4:hover,.cell_5:hover,.cell_6:hover{
+	background-color:white;
+	color:black;
+	cursor:pointer;
+	
+}
+.sala_activ{
+background-color:grey;	
+}
+.tooltip_a{
+	
+background-color:red;	
+}
+
+.tooltip{
+	
+	background-color:white;
+	//width:150px;
+	//height:150px;
+	text-align:center;
+	color:green;
+	font-size:11px;
+	padding:5px;
+	border:2px solid black;
+	border-radius:10px;
+	
+}
+/*///////////////////////////////form//////////////////////////////*/
+body::after{
+	content:'';
+	position:fixed;
+	z-index:-1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:transparent;
+	
+}
+body.form_tlo::after{
+	background:gray;
+	z-index:1;
+	opacity:0.5;
+}
+
+#input_box{
+	width:500px;
+	height:340px;
+	background-color:#2F4F4F;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index:2;
+	display:none;
+	border-radius:10px;
+	
+	}
+	#sala{
+	text-align:center;
+	width:70px;
+	display:block;
+	margin:0 auto;	
+	}	
+#div_sala>label{
+	font-size:26px;
+	position:relative;
+	top:30px;
+	left:125px;
+	color:white;
+}
+#div_sala{
+	margin-bottom:20px;
+}		
+input{
+	
+	font-size:20px;
+}
+
+#day,#month,#year,#od,#do{
+	text-align:center;
+	width:70px;
+	float:left;
+	margin-left:8px;
+}
+.time_data>label{
+	color:white;
+	font-size:18px;
+	padding:15px 15px;
+	margin-top:10px;
+	//margin-left:3px;
+	
+}
+
+.time_data{
+	margin-left:40px;
+	
+	
+	
+}
+#div_name{
+		clear:both;
+		//background-color:red;	
+		margin-left:48px;
+		
+	}
+	#div_name>label{
+		text-align:center;
+		color:white;
+		font-size:18px;
+		display:block;
+		//background-color:yellow;
+	}
+#name_c{
+	width:400px;
+}
+#div_tel{
+float:left;
+margin-left:48px;
+}
+#div_tel>label,#div_mail>label,#div_opis>label{
+	text-align:center;
+	color:white;
+	display:block;
+	font-size:18px;
+}
+#tel{
+	width:120px;
+}
+#div_mail{
+float:left;
+}
+#mail{
+	width:270px;
+	margin-left:6px;
+}
+#div_opis{
+	clear:both;
+}
+#opis{
+	width:398px;
+	height:40px;
+	margin-left:48px;
+}
+#send{
+	width:400px;
+	position:absolute;
+	left:50%;
+	transform:translate(-50%,0);
+	letter-spacing:3px;
+	font-size:18px;
+	background-color:red;
+	color:yellow;
+	
+}
+#close{
+	position:absolute;
+	right:0px;
+	top:0;
+	width:30px;
+	height:30px;
+	color:green;
+	font-size:25px;
+	text-align:center;
+	
+}
+#error{
+	display:none;
+	width:500px;
+	background-color:red;
+	position:absolute;
+	top:-10%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	padding:15px;
+	font-size:14px;
+	color:white;
+	z-index:2;
+}
+/*////////////////////////////////////////////svg////////////////////////////////////*/
+
+#svg{
+	transform:scale(0.25);
+	background-color:blue;
+	position:absolute;
+	top:20px;
+	left:20px;
+	width:0px;
+	height:0px;
+	
+}
+.rect{
+	fill:#2F4F4F;
+	stroke:white;
+	stroke-width:10px;
+}
+
+.circle{
+	fill:white;
+	stroke:#696969;
+	stroke-width:10px;
+}
+
+.center{
+	fill:white;
+
+}
+.text{
+	 fill:white;
+	 font-size:50px;
+	 font-family:verdana;
+}
+
+.text_nr{
+	 fill:black;
+	 font-size:60px;
+	 font-family:verdana;
+	 font-weight:bold;
+}
+
+.doors{
+	fill:black;
+	stroke:white;
+	stroke-width:10px;
+}
+.sale_all{
+	
+	
+}
+.sale_all:hover>.rect{
+	fill:grey;
+	
+}
+
+/*/////////////inofo box///////////*/
+#box_info{
+	display:flex;
+	flex-flow:column;
+	position:relative;
+	left:242px;
+	top:20px;
+	//background-color:red;
+	z-index:1;
+	width:253px;
+	height:315px;
+	box-sizing:border-box;
+	//border:1px solid black;
+	
+}
+h3{
+	font-size:18px;
+	letter-spacing:2px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,0%);
+}
+
+#name{
+	text-align:center;
+	font-size:18px;
+	
+	
+}
+#info{
+	
+}
+#sala_busy_svg{
+	font-size:14px;
+	text-align:center;
+	letter-spacing:1px;
+	width:253px;
+	position:absolute;
+	top:23%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#od_do{
+	font-size:16px;
+	line-height:1.4em;
+	letter-spacing:1.5px;
+	position:absolute;
+	top:30%;
+	left:50%;
+	transform:translate(-50%,0%);
+}
+
+.img{
+	position:absolute;
+	bottom:0;
+align-self:center;}
+
+.hover_on_s{
+	fill:grey;
+	//stroke:black;
+	 transition: fill 1s ease;
+	//transform:stroke 1s;
+}
+
+.title_calendar{
+	box-sizing:border-box;
+	border:0px solid;
+	border-radius:50%;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+}
+.weekend{
+	//background-color:white;
+	opacity:0.5;
+	border-bottom:1px solid black;
+}
+.too_day{
+	background-color:white;
+	color:black;
+}
+

@@ -1,0 +1,106 @@
+body{
+	background-image:url("tlo.png");
+}
+h1{
+	/* position:absolute;
+	left:50%;
+	transform:translateX(-50%); */
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+}
+.all{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width:10%;
+}
+.main_view{
+	//width:70%;
+	//margin-bottom:20px;
+	font-size:14px;
+	/* position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%); */
+}
+#open_checked{
+	//padding:5px;
+	letter-spacing:2px;
+	cursor:pointer;
+	 background-color:green;
+	 color:white;
+	 font-size:20px;
+	 animation:moja_animacja 3s infinite;
+	
+}
+  @keyframes moja_animacja
+      {
+        0% {opacity: 1; }
+        50% { opacity: 0; }
+       
+      }
+
+.main_view>.tab>.row>div{
+	display:flex;
+	font-family: 'McLaren', cursive;
+	
+}
+.main_view>.tab>.title{
+	display:flex;
+	text-align:center;
+	font-family: 'McLaren', cursive;
+}
+
+
+.main_view>.tab>.row>div>div,.main_view>.tab>.title>div{
+	padding:5px;
+	border-top:1px solid black;
+	
+}
+.main_view>.tab>.row>div>div:nth-child(4n+1),.main_view>.tab>.title>div:nth-child(4n+1){
+		width:8%;
+		text-align:center;
+		margin:0 5px;
+}
+.main_view>.tab>.row>div>div:nth-child(4n+2),.main_view>.tab>.title>div:nth-child(4n+2){
+			width:12%;
+			margin:0 5px;
+			word-wrap:break-word;
+}
+.main_view>.tab>.row>div>div:nth-child(4n+3),.main_view>.tab>.title>div:nth-child(4n+3){
+			width:70%;
+			margin:0 5px;
+}
+
+.log{
+	/* margin-top: 20px;
+	position:absolute;
+	bottom:20%; */
+}
+.form_admin{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	width:100%;
+	min-height: 100%;
+	align-items: center;
+	
+}
+.form_admin div{
+	width:50%;
+	
+}
+.form_admin>div>input{
+	width:100%;
+	
+}
+.form_admin button{
+	width:50%;
+	
+}
+
+
+
+
+
+

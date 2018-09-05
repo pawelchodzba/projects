@@ -1,0 +1,139 @@
+body{
+
+	background-image:url("tlo.png");
+}
+
+
+#ramka{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#kat_podkat{
+	font-size:20px;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	color:white;
+	text-align:center;
+	padding:10px 0;
+}
+form>input[type=text]{
+
+	font-size:16px;
+	width:600px;
+	
+}
+#clear{
+	display:none;
+
+	position:absolute;
+	top:20;
+	right:10px;
+	margin-top:10px;
+}
+.pyt{
+	position:relative;
+	top:-5px;
+	width:200px;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:white;
+	text-align:center;
+	padding:0px 0;
+	background-color:green;
+
+}
+
+.linia{
+	margin:25px 0;
+	height:1px;
+	width:100%;
+	background-color:white;
+	
+	
+}
+#grupa{
+	width:604px;
+	color:white;
+	text-align:left;
+	
+}
+#grupa>p{
+	
+	padding:5px 0 0 5px;
+	margin:0;
+}
+#schowaj,#powiadomienie{
+	display:none;
+}
+.sluzby{
+	float:left;
+	width:50%;
+	text-align:center;
+	color:white;
+	padding:10px 0;
+}
+
+
+#wiodaca,#fakultatywna{
+	text-transform:uppercase;
+	font-size:20px;
+	letter-spacing:3px;
+}
+
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 4px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 16px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #888;
+	color: white;
+}
+/* a{ */
+	/* position:absolute; */
+	/* top:0; */
+	/* right:10px; */
+	/* margin-top:10px; */
+/* } */
