@@ -1,11 +1,11 @@
 
 <?php
-session_start();
-if(!isset($_SESSION['zalogowany']))
-{
-	header('Location: ../index.php');
-	exit();
-}
+// session_start();
+// if(!isset($_SESSION['zalogowany']))
+// {
+// 	header('Location: ../index.php');
+// 	exit();
+// }
 
 ?>
 <!DOCTYPE html>
@@ -20,8 +20,8 @@ if(!isset($_SESSION['zalogowany']))
 		
 </head>
 <body >
-<a href="../wylog.php">WYLOGUJ</a>	</br>	</br>		
-<a href="../index.php">MENU GŁÓWNE</a>
+<!-- <a href="../wylog.php">WYLOGUJ</a>	</br>	</br>		
+<a href="../index.php">MENU GŁÓWNE</a> -->
 
 <div id="content_all">
 		<div id="content_calendar">
@@ -198,7 +198,7 @@ if(!isset($_SESSION['zalogowany']))
 <div id='info_title'>
 <div></div>
 </div>
-<a href="admin/admin.php" target="_blanck">Zaloguj</a>
+<!-- <a href="admin/admin.php" target="_blanck">Zaloguj</a> -->
 	<script type="text/javascript" src="info_sale.js"></script>
 		
 	<script type="text/javascript" src="main.js"></script>

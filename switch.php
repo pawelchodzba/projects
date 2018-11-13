@@ -30,35 +30,30 @@ if(!isset($_SESSION['zalogowany']))
 	<div class="all">
 	
 		<div><h2>Menu główne</h2></div>
-		
-		<div>
-			Witam na stronie prezentującej autorskie projekty.<br>
-			Pod każdym przyciskiem umieszczony jest krótki opis mający na celu przybliżyć genezę i charakter rozwiązywanego problemu.<br>
-			Autor zaleca przeglądanie projektów w przeglądarce Chrome (projekt "Raport CPR"  nie działa na innych).
-		</div>
+	
 
 		<div>
 			
-			<div>
+			<!-- <div>
 				<a href="pisr/pisr.php"><input type="button" value="platforma informacyjna CPR"/></a><br>
 				<a href="pisr.pdf" target="_blank">opis</a>
 			</div>
 			<div>
 				<a href="pisr/multi_mapa.php"><input type="button"value="nowe okno mapy" /></a><br>
 				<a href="multi_mapa.pdf" target="_blank">opis</a>
-			</div>
+			</div> -->
 			<div>
 				<a href="typehead/autocomplete_1.php"><input type="button"value="kategorie cpr" /></a><br>
 				<a href="autocomplete.pdf" target="_blank">opis</a>
 			</div>
-			<div>
+			<!-- <div>
 				<a href="rezerwacja_sal/index.php"><input type="button"value="rezerwacja sal" /></a><br>
 				<a href="rezerwacja_sal.pdf" target="_blank">opis</a>
-			</div>
-			<div>
+			</div> -->
+			<!-- <div>
 				<a href="rehabilitacja/index.php"><input type="button"value="oddział szpitalny" /></a><br>
 				<a href="rehabilitacja.pdf" target="_blank">opis</a>
-			</div>
+			</div> -->
 			<div>
 				<a href="raport_cpr/index.php"><input type="button"value="raport CPR" /></a><br>
 				<a href="raport_cpr.pdf" target="_blank">opis</a>
@@ -75,10 +70,10 @@ if(!isset($_SESSION['zalogowany']))
 				<a href="rescue_link/index.php"><input type="button"value="alarmowe linki" /></a><br>
 				<a href="rescue_link.pdf" target="_blank">opis</a>
 			</div>
-			<div>
+			<!-- <div>
 				<a href="doctor-skils/index.html"><input type="button"value="doctor skils" /></a><br>
-				<!-- <a href="rescue_link.pdf" target="_blank">opis</a> -->
-			</div>
+				
+			</div> -->
 		</div>
 		
 		<div>

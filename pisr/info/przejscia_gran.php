@@ -1,10 +1,10 @@
 <?php
-session_start();
-if(!isset($_SESSION['zalogowany']))
-{
-	header('Location: ../../index.php');
-	exit();
-}
+// session_start();
+// if(!isset($_SESSION['zalogowany']))
+// {
+// 	header('Location: ../../index.php');
+// 	exit();
+// }
 
 ?>
 <!DOCTYP HTML>
@@ -16,7 +16,7 @@ if(!isset($_SESSION['zalogowany']))
 	<meta name="description" content=""/>
 	<meta name="keywords" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<meta name="author" content="Pawe³ ChodŸba"/>
+	<meta name="author" content="Paweï¿½ Chodï¿½ba"/>
 	</head>
 	<body>
 	

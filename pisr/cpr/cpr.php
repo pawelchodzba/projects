@@ -1,13 +1,13 @@
 
-<?php
-session_start();
-if(!isset($_SESSION['zalogowany']))
-{
-	header('Location: ../../index.php');
-	exit();
-}
+<!-- <?php
+// session_start();
+// if(!isset($_SESSION['zalogowany']))
+// {
+// 	header('Location: ../../index.php');
+// 	exit();
+// }
 
-?>
+?> -->
 
 <!DOCTYP HTML>
 <html lang="pl">

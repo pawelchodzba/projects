@@ -11,10 +11,44 @@
 .all>div{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 90vw;
-    flex-wrap: wrap;
    
+    flex-wrap: wrap;
+    
+   
+ }
+ .all>div>div{
+      height: 15%;
+     
  }
 .all>div:nth-child(4){
      width: 25%;
+}
+div form input{
+    width:100%;
+    height: auto;
+    
+    
+}
+.row{
+    border-bottom: 1px solid black;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height:25%; 
+   
+}
+.project a{
+ width: 100%;
+ text-align: center;
+}
+header{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    border-bottom: 1px solid black;
 }

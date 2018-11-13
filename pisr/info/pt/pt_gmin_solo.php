@@ -1,13 +1,13 @@
 
 <?php
 
-session_start();
+// session_start();
 
-if(!isset($_SESSION['zalogowany']))
-{
-	header('Location: ../../../index.php');
-	exit();
-}
+// if(!isset($_SESSION['zalogowany']))
+// {
+// 	header('Location: ../../../index.php');
+// 	exit();
+// }
 
 require_once "lacznoscGmin.php";
 $polaczenie_gmin = new mysqli($host, $db_user, $db_password, $db_name);

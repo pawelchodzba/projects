@@ -1,12 +1,12 @@
 
 <?php
-session_start();
+// session_start();
 
-if((!isset($_POST['login']))|| (!isset($_POST['haslo'])))
-{
-	header('Location:index.php');
-	exit();
-}
+// if((!isset($_POST['login']))|| (!isset($_POST['haslo'])))
+// {
+// 	header('Location:index.php');
+// 	exit();
+// }
 
 require_once "../lacznosc_rezerwacja.php";	
 	

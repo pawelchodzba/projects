@@ -1,12 +1,12 @@
-<?php
-session_start();
-if(!isset($_SESSION['zalogowany']))
-{
-	header('Location: ../index.php');
-	exit();
-}
+<!-- <?php
+// session_start();
+// if(!isset($_SESSION['zalogowany']))
+// {
+// 	header('Location: ../index.php');
+// 	exit();
+// }
 
-?>
+?> -->
 
 
 <!DOCTYP html>
@@ -93,8 +93,8 @@ if(!isset($_SESSION['zalogowany']))
 
 <body onload="mapaStart();  zawartoscOkna();  odswierzanie(); odswierzanie_prm(); odswierzanie_cpr();odswierzanie_psp();teraz(); " >
 		
-<a href="../wylog.php">WYLOGUJ</a>	</br>		
-<a href="../index.php">MENU GŁÓWNE</a>			
+<!-- <a href="../wylog.php">WYLOGUJ</a>	</br>		
+<a href="../index.php">MENU GŁÓWNE</a>			 -->
 		
 		<div id="ramka_map">	
 			<input type="button" id="prm_map"value="PRM">

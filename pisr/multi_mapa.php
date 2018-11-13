@@ -1,11 +1,11 @@
 
 <?php
-session_start();
-if(!isset($_SESSION['zalogowany']))
-{
-	header('Location: ../index.php');
-	exit();
-}
+// session_start();
+// if(!isset($_SESSION['zalogowany']))
+// {
+// 	header('Location: ../index.php');
+// 	exit();
+// }
 
 ?>
 
@@ -38,8 +38,8 @@ if(!isset($_SESSION['zalogowany']))
 <body onload="mapaStart();" >
 <div id="localizer"class="localizer">
 	<div id="napis" class="okno"></div>
-	<div id="dlug" class="okno"><a href="../wylog.php">WYLOGUJ</a></div> 
-	 <div id="szer" class="okno"><a href="../index.php">MENU GŁÓWNE</a></div>
+	<!-- <div id="dlug" class="okno"><a href="../wylog.php">WYLOGUJ</a></div> 
+	<div id="szer" class="okno"><a href="../index.php">MENU GŁÓWNE</a></div> -->
 		
 	
 </div>
