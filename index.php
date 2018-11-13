@@ -39,27 +39,27 @@ session_start();
 		<div class="col-sm-6 col-md-4 col-xl-3 project">
 			<a href="pisr/pisr.php" target= "_blank"><button class="btn btn-secondary btn-lg btn-block">Platforma </button></a>
 			<a href="opis/opis-pdf/pisr.pdf" target="_blank">Opis</a>
-			<!-- <a href="#">Github</a>  -->
+			<a href="https://github.com/pawelchodzba/pisr">Github</a> 
 		</div>
 		<div class="col-sm-6 col-md-4 col-xl-3 project">
 			<a href="pisr/multi_mapa.php" target= "_blank"><button class="btn btn-secondary btn-lg btn-block">Mapa </button></a>
 			<a href="opis/opis-pdf/multi_mapa.pdf" target="_blank">Opis</a>
-			<!-- <a href="#">Github</a>  -->
+			<a href="https://github.com/pawelchodzba/pisr">Github</a> 
 		</div>
 		<div class="col-sm-6 col-md-4 col-xl-3 project">
 			<a href="rezerwacja_sal/index.php" target= "_blank"><button class="btn btn-secondary btn-lg btn-block">Rezerwacja sal </button></a>
 			<a href="opis/opis-pdf/rezerwacja_sal.pdf" target="_blank">Opis</a>
-			<!-- <a href="#">Github</a> </div> -->
+			<a href="https://github.com/pawelchodzba/rezerwacja-sal">Github</a> </div>
 		</div>
 		<div class="col-sm-6 col-md-4 col-xl-3 project">
 			<a href="rehabilitacja/main.php" target= "_blank"><button class="btn btn-secondary btn-lg btn-block">Oddział szpitalny </button></a>
 			<a href="opis/opis-pdf/rehabilitacja.pdf" target="_blank">Opis</a>
-			<!-- <a href="#">Github</a>  -->
+			<a href="https://github.com/pawelchodzba/oddzial-szpitalny">Github</a> 
 		</div>
 		<div class="col-sm-6 col-md-4 col-xl-3 project">
 			<a href="doctor-skils/index.html" target= "_blank"><button class="btn btn-secondary btn-lg btn-block">Doctor skils </button></a>
 			<a href="#" target="_blank">Opis</a>
-			<!-- <a href="#">Github</a>  -->
+			<a href="https://github.com/pawelchodzba/doctor-skills">Github</a> 
 		</div>
 		<div class="col-sm-6 col-md-4 col-xl-3 project">
 			<a href="clientlist/index.html" target= "_blank"><button class="btn btn-secondary btn-lg btn-block">Lista klientów</button></a>
